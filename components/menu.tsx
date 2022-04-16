@@ -19,7 +19,7 @@ export default function Menu() {
         <Link href="/gift-registries">Gift Registries</Link>
       </li>
       <li>
-        <Link href="">RSVP</Link>
+        <Link href="https://forms.gle/9YaJhnuP8L4uXCtTA">RSVP</Link>
       </li>
     </ul>
   );
