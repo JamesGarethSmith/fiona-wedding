@@ -19,7 +19,9 @@ export default function Menu() {
         <Link href="/gift-registries">Gift Registries</Link>
       </li>
       <li>
-        <Link href="https://forms.gle/9YaJhnuP8L4uXCtTA">RSVP</Link>
+        <a target="_blank" href="https://forms.gle/9YaJhnuP8L4uXCtTA">
+          RSVP
+        </a>
       </li>
     </ul>
   );
