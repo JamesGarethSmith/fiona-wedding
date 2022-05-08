@@ -1,4 +1,3 @@
-import Menu from "./menu";
 import Footer from "./footer";
 
 interface LayoutProps {
@@ -7,7 +6,6 @@ interface LayoutProps {
 
 const Layout = ({ children }: LayoutProps) => (
   <>
-    <Menu />
     <main>{children}</main>
     <Footer />
   </>

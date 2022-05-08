@@ -1,0 +1,17 @@
+@import './variables.scss';
+
+@function calculate-rem($size) {
+	$rem-size: $size / 16px;
+	@return $rem-size * 1rem;
+}
+
+@mixin font-size($size) {
+	font-size:$size;
+	font-size:calculate-rem($size);
+}
+
+@mixin desktop {
+  @media (min-width: 480px) {
+    @content;
+  }
+}

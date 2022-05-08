@@ -1,0 +1,24 @@
+@import '../../styles/functions.scss';
+@import '../../styles/variables.scss';
+
+.hero {
+  min-height: calculate-rem(800px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  color: $lightest;
+  
+  h1 {
+    @include font-size(50px);
+
+    @include desktop {
+      @include font-size(80px);
+    }
+  }
+}
