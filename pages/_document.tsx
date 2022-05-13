@@ -5,10 +5,6 @@ export default function Document() {
     <Html>
       <Head>
         <title>Fiona &amp; Ryan</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Open+Sans&display=optional"
-          rel="stylesheet"
-        />
       </Head>
       <body>
         <Main />

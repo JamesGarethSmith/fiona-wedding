@@ -3,3 +3,9 @@
   src:  url('dancingscript-regular-webfont.woff2') format('woff2'),
         url('dancingscript-regular-webfont.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'PT Serif';
+  src:  url('pt-serif.regular-webfont.woff2') format('woff2'),
+        url('pt-serif.regular-webfont.woff') format('woff');
+}
