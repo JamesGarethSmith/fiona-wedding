@@ -1,0 +1,12 @@
+@import '../../styles/variables.scss';
+
+.card {
+  padding: 5rem 1rem;
+  background-color: $off-white;
+  margin: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}

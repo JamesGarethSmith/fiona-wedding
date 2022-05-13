@@ -1,3 +1,5 @@
+import Footer from "./footer";
+
 interface LayoutProps {
   children: React.ReactNode;
 }
@@ -5,6 +7,7 @@ interface LayoutProps {
 const Layout = ({ children }: LayoutProps) => (
   <>
     <main>{children}</main>
+    <Footer />
   </>
 );
 

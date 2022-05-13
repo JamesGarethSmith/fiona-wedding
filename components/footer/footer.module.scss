@@ -1,6 +1,35 @@
 @import "../../styles/variables.scss";
+@import "../../styles/functions.scss";
+
+.wrapper {
+  background-color: $off-black;
+  margin-top: 2rem;
+  border-top: 1px solid black;
+}
 
 .container {
-  background-color: $off-black;
-  color: $lightest;
+  padding: 3rem 1rem;
+
+  @include desktop {
+    display: flex;
+    max-width: $max-width;
+    margin: 0 auto;
+  }
+
+  ul {
+    flex: 1;
+    margin-bottom: 3rem;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
+    @include desktop {
+      margin-bottom: 0;
+    }
+  }
+
+  li {
+    margin-bottom: 0.8rem;
+  }
 }
