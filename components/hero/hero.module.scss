@@ -7,7 +7,10 @@
   background-size: cover;
   display: flex;
   justify-content: center;
-  padding: calculate-rem(40px) calculate-rem(20px); 
+  padding: calculate-rem(40px) calculate-rem(20px);
+
+  // TODO: remove once more sections have been added
+  min-height: 100vh;
   
   @include desktop {
     min-height: calculate-rem(800px);
