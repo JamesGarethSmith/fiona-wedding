@@ -6,7 +6,7 @@ const Footer = () => (
     <div className={styles.container}>
       <ul>
         <li>
-          <a href="" target="_blank">
+          <a href="https://forms.gle/2xEAJxqXUysFzNxt7" target="_blank">
             RSVP
           </a>
         </li>

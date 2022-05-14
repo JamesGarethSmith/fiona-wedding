@@ -3,7 +3,7 @@ import Layout from "../components/layout";
 import FullWidth from "../components/full-width";
 import Profile from "../components/profile";
 
-const Directions = () => (
+const LoveStory = () => (
   <Layout>
     <Hero section="story">
       <h1>Our Love Story</h1>
@@ -103,4 +103,4 @@ const Directions = () => (
   </Layout>
 );
 
-export default Directions;
+export default LoveStory;

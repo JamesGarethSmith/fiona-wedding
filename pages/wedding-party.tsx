@@ -3,7 +3,7 @@ import Hero from "../components/hero";
 import Layout from "../components/layout";
 import Profile from "../components/profile";
 
-const Directions = () => (
+const WeddingParty = () => (
   <Layout>
     <Hero section="wedding">
       <h1>The wedding party</h1>
@@ -211,4 +211,4 @@ const Directions = () => (
   </Layout>
 );
 
-export default Directions;
+export default WeddingParty;
