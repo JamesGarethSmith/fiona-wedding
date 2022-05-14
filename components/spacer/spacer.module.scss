@@ -1,0 +1,13 @@
+@import '../../styles/functions.scss';
+
+.wedding {
+  height: 100px;
+
+  @include desktop {
+    height: 250px;
+  }
+}
+
+.directions {
+  height: 100px;
+}

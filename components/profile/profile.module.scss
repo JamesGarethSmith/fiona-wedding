@@ -1,0 +1,50 @@
+@import '../../styles/functions.scss';
+
+.profile {
+  @include desktop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  margin-bottom: 3rem;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &.flipped {
+    .image {
+      margin-top: 1rem;
+    }
+
+    @include desktop {
+      flex-direction: row-reverse;
+      
+      .image {
+        margin-left: 3rem;
+      }
+    }
+
+  }
+}
+
+.image {
+  margin-bottom: 1rem;
+  // text-align: center;
+  
+  img {
+    padding: 0.8rem 1rem !important;
+    background-color: white;
+    border-radius: 5px;
+  }
+
+  @include desktop {
+    margin-right: 3rem;
+  }
+}
+
+.block {
+  flex: 1;
+  position: relative;
+}

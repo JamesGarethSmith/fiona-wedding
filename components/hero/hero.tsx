@@ -1,18 +1,20 @@
+import classnames from "classnames";
+
+import Spacer from "../spacer";
+
 import styles from "./hero.module.scss";
 
 interface HeroProps {
-  imgSrc: string;
+  section: string;
   children: React.ReactNode;
 }
 
-const Hero = ({ imgSrc, children }: HeroProps) => (
-  <div
-    style={{
-      backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("${imgSrc}");`,
-    }}
-    className={styles.hero}
-  >
-    <div className={styles.content}>{children}</div>
+const Hero = ({ section, children }: HeroProps) => (
+  <div className={classnames(styles.hero, styles[section])}>
+    <div className={styles.content}>
+      {children}
+      <Spacer section={section} />
+    </div>
   </div>
 );
 

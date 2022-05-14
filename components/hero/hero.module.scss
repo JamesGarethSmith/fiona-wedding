@@ -10,8 +10,6 @@
   padding: calculate-rem(40px) calculate-rem(20px);
   border-bottom: 1px solid $dark;
   margin-bottom: 2rem;
-
-  min-height: 100vh;
   
   @include desktop {
     min-height: 80vh;
@@ -19,8 +17,21 @@
   }
 }
 
+.invitation {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero/invitation_bg.jpg");
+}
+
+.directions {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero/directions_bg.jpg");
+}
+
+.wedding {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/images/hero/wedding_bg.jpg");
+}
+
 .content {
   color: $lightest;
+  text-align: center;
   
   h1 {
     @include font-size(50px);

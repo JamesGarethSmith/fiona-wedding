@@ -6,7 +6,7 @@ import Layout from "../components/layout";
 
 const Home = () => (
   <Layout>
-    <Hero imgSrc="/images/home_bg_2.jpg">
+    <Hero section="invitation">
       <Invitation />
     </Hero>
     <Block>
@@ -26,6 +26,7 @@ const Home = () => (
         url="/directions"
       />
     </Block>
+
     <Block>
       <Card
         title="Directions"

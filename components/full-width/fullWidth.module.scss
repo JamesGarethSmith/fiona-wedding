@@ -1,0 +1,11 @@
+@import '../../styles/functions.scss';
+
+.fullWidth {
+  flex: 1;
+  padding: 0 1rem;
+  margin-top: 3rem;
+
+  h1 {
+    font-size: calculate-rem(32px);
+  }
+}
