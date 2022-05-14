@@ -1,19 +1,22 @@
+import classNames from "classnames";
+
 import Link from "next/link";
 import styles from "./card.module.scss";
 
 interface CardProps {
   title: string;
-  description: string;
   url: string;
+  bg?: string;
 }
 
-const Card = ({ title, description, url }: CardProps) => (
-  <div className={styles.card}>
-    <div>
-      <h2>{title}</h2>
-      <Link href={url}>{description}</Link>
+const Card = ({ title, url, bg = "wreath" }: CardProps) => (
+  <Link href={url}>
+    <div className={classNames(styles.card, styles[bg])}>
+      <div>
+        <Link href={url}>{title}</Link>
+      </div>
     </div>
-  </div>
+  </Link>
 );
 
 export default Card;

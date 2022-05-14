@@ -5,7 +5,7 @@ import styles from "./invitation.module.scss";
 const Invitation = () => (
   <div className={styles.wrapper}>
     <p>Together with their parents,</p>
-    <h1>Fiona Smith &amp; Ryan Maggot</h1>
+    <h1>Fiona Smith &amp; Ryan Maggott</h1>
     <p>
       with great pleasure invite you to join them at the celebration of their
       marriage.

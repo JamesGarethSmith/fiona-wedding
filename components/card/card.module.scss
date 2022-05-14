@@ -1,12 +1,37 @@
 @import '../../styles/variables.scss';
 
 .card {
+  cursor: pointer;
   padding: 5rem 1rem;
   background-color: $off-white;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  text-align: center;
   margin: 1rem;
   border-radius: 5px;
   display: flex;
   flex: 1;
   justify-content: center;
   align-items: center;
+}
+
+.wreath {
+  background-image: linear-gradient(rgba(248, 248, 255, 0.8), rgba(248, 248, 255, 0.8)), url('/images/wreath.png');
+}
+
+.bouquet {
+  background-image: linear-gradient(rgba(248, 248, 255, 0.8), rgba(248, 248, 255, 0.8)), url('/images/bouquet.png');
+}
+
+.succulents {
+  background-image: linear-gradient(rgba(248, 248, 255, 0.8), rgba(248, 248, 255, 0.8)), url('/images/succulents.png');
+}
+
+.flowers {
+  background-image: linear-gradient(rgba(248, 248, 255, 0.8), rgba(248, 248, 255, 0.8)), url('/images/flowers.png');
+}
+
+.leaves {
+  background-image: linear-gradient(rgba(248, 248, 255, 0.8), rgba(248, 248, 255, 0.8)), url('/images/leaves.png');
 }

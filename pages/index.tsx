@@ -10,34 +10,17 @@ const Home = () => (
       <Invitation />
     </Hero>
     <Block>
+      <Card title="Directions to the venue" url="/directions" />
       <Card
-        title="Directions"
-        description="Click here for directions and map"
-        url="/directions"
+        title="Accommodation near the venue"
+        url="/accommodation"
+        bg="bouquet"
       />
-      <Card
-        title="Directions"
-        description="Click here for directions and map"
-        url="/directions"
-      />
-      <Card
-        title="Directions"
-        description="Click here for directions and map"
-        url="/directions"
-      />
+      <Card title="Gift Registries" url="/directions" bg="succulents" />
     </Block>
-
     <Block>
-      <Card
-        title="Directions"
-        description="Click here for directions and map"
-        url="/directions"
-      />
-      <Card
-        title="Directions"
-        description="Click here for directions and map"
-        url="/directions"
-      />
+      <Card title="Our Love Story" url="/love-story" bg="flowers" />
+      <Card title="The Wedding Party" url="/wedding-party" bg="leaves" />
     </Block>
   </Layout>
 );
