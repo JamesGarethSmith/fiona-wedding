@@ -1,7 +1,6 @@
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import FullWidth from "../components/full-width";
-import Spacer from "../components/spacer";
 
 const Directions = () => (
   <Layout>
