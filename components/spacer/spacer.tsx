@@ -1,5 +1,7 @@
 import style from "./spacer.module.scss";
 
-export default ({ section }: { section: string }) => (
+const Spacer = ({ section }: { section: string }) => (
   <div className={style[section]} />
 );
+
+export default Spacer;
