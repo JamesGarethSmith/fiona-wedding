@@ -76,7 +76,14 @@ const WeddingParty = () => (
           agreed to be a bridesmaid.
         </p>
       </Profile>
-      <Profile>
+      <Profile
+        image={{
+          url: "/images/profile/michelle.jpg",
+          width: 1685,
+          height: 1999,
+        }}
+        flipped={true}
+      >
         <h1>Bridesmaid - Michelle Hamilton Long</h1>
         <p>
           Michelle is a colleague that I met at my previous job. When she joined
@@ -130,7 +137,13 @@ const WeddingParty = () => (
           holiday to Europe we in turn made plans with him and Wiebke.
         </p>
       </Profile>
-      <Profile>
+      <Profile
+        image={{
+          url: "/images/profile/chris.jpg",
+          width: 747,
+          height: 800,
+        }}
+      >
         <h1>Groomsman - Chris Cichiwskyj</h1>
         <p>
           Chris was introduced to Ryan by Albie while they were playing their
@@ -173,12 +186,8 @@ const WeddingParty = () => (
           I come from a family of four that has grown over the years to include
           Anouk, Ewan, Sophie and now will be adding Ryan. My father comes from
           Scotland and with it I grew up with a lot of Scottish heritage. My Dad
-          moved to South Africa, met my mother as part of Scottish country
-          dancing and they have been married almost 38 years
-        </p>
-        <p>
-          As the baby girl of the family I was blessed to be spoiled and treated
-          as a princess by my family.
+          moved to South Africa, met my mother as part of a Scottish country
+          dancing club. This year they have been married for 38 years
         </p>
         <p>
           The Smith clan is my father Christie and mother Joy. My brother James
