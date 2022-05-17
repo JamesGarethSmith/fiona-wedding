@@ -16,7 +16,7 @@ const Home = () => (
         url="/accommodation"
         bg="bouquet"
       />
-      <Card title="Gift Registries" url="/directions" bg="succulents" />
+      <Card title="Gift Registries" url="/gift-registries" bg="succulents" />
     </Block>
     <Block>
       <Card title="Our Love Story" url="/love-story" bg="flowers" />

@@ -37,10 +37,12 @@ const Footer = () => (
       </ul>
       <ul>
         <li>
-          <a href="tel:0824844883">Phone</a>
+          <a href="tel:+27713846618">Phone: +2771 384 6618</a>
         </li>
         <li>
-          <a href="mailto:james.gareth.smith@gmail.com">Email</a>
+          <a href="mailto:fiona.caroline.smith@gmail.com">
+            Email: fiona.caroline.smith@gmail.com
+          </a>
         </li>
       </ul>
     </div>
