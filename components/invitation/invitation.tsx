@@ -18,7 +18,7 @@ const Invitation = () => (
     </ul>
 
     <p>
-      Please RSVP by the <b>30th of June 2022.</b>
+      Please RSVP by the <b>31st of June 2022.</b>
     </p>
 
     <Button
