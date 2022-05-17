@@ -23,6 +23,9 @@ const Footer = () => (
         <li>
           <Link href="/gift-registries">Gift registries</Link>
         </li>
+        <li>
+          <Link href="/faqs">FAQs</Link>
+        </li>
       </ul>
       <ul>
         <li>
