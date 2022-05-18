@@ -63,11 +63,11 @@ const FAQs = () => (
       </p>
 
       <p>
-        <b>7 What should I do if I can't make it?</b>
+        <b>7 What should I do if I can&apos;t make it?</b>
       </p>
       <p>
-        You will be missed! If you can't make it to the wedding please let us
-        know as soon as possible and RSVP no so we can plan accordingly.
+        You will be missed! If you can&apos;t make it to the wedding please let
+        us know as soon as possible and RSVP no so we can plan accordingly.
       </p>
 
       <p>

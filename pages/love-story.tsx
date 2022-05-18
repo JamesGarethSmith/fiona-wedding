@@ -24,10 +24,10 @@ const LoveStory = () => (
       <p>
         When I joined the group two of the lovely people I met were Ryan and
         Stacey. After one of the sessions Ryan messaged to let me know that one
-        of my car's brake lights was not working and offered to help me change
-        the bulb. Through the process we found out that we both lived in the
-        same complex in Somerset West. We started meeting up for coffee after
-        work and soon after started dating.
+        of my car&apos;s brake lights was not working and offered to help me
+        change the bulb. Through the process we found out that we both lived in
+        the same complex in Somerset West. We started meeting up for coffee
+        after work and soon after started dating.
       </p>
       <p>
         We have been dating for over four years now with some exciting
@@ -70,16 +70,17 @@ const LoveStory = () => (
       </Profile>
 
       <p>
-        We started playing the game and one of my cards, the 'Spectrespecs' had
-        the instructions to 'Choose another player to search for an item from
-        the Hogwarts Cards library. That card is played immediately.' Ryan as
-        the only other player playing was the player that got to go through the
-        Hogwarts card library. He found the card called “Unbreakable Vow” with
-        the instructions of “Choose another player to receive the Artifact of
-        Commitment. Anything that happens to either player is evenly distributed
-        between you and that plater.” Ryan asked me if there was an extra item
-        in one of the boxes that we did not unpack and proceeded to go to one of
-        the boxes that the game cards had been in.
+        We started playing the game and one of my cards, the
+        &lsquo;Spectrespecs&rsquo; had the instructions to &lsquo;Choose another
+        player to search for an item from the Hogwarts Cards library. That card
+        is played immediately.&rsquo; Ryan as the only other player playing was
+        the player that got to go through the Hogwarts card library. He found
+        the card called “Unbreakable Vow” with the instructions of “Choose
+        another player to receive the Artifact of Commitment. Anything that
+        happens to either player is evenly distributed between you and that
+        plater.” Ryan asked me if there was an extra item in one of the boxes
+        that we did not unpack and proceeded to go to one of the boxes that the
+        game cards had been in.
       </p>
       <Profile
         image={{
