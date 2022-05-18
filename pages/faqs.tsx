@@ -77,8 +77,8 @@ const FAQs = () => (
 
       <p>
         <b>
-          9 I have dietary restrictions/allergies. What's the best way to let
-          you know?
+          9 I have dietary restrictions/allergies. What&apos;s the best way to
+          let you know?
         </b>
       </p>
       <p>
