@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import FullWidth from "../components/full-width";
 
 const FAQs = () => (
   <Layout>
+    <Head>
+      <title>Fiona &amp; Ryan | FAQs</title>
+    </Head>
     <Hero section="faqs">
       <h1>FAQs</h1>
     </Hero>

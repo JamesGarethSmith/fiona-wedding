@@ -1,3 +1,4 @@
+import Head from "next/head";
 import FullWidth from "../components/full-width";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
@@ -5,6 +6,9 @@ import Profile from "../components/profile";
 
 const WeddingParty = () => (
   <Layout>
+    <Head>
+      <title>Fiona &amp; Ryan | Wedding Party</title>
+    </Head>
     <Hero section="wedding">
       <h1>The wedding party</h1>
     </Hero>

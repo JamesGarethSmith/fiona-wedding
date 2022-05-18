@@ -1,3 +1,4 @@
+import Head from "next/head";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import FullWidth from "../components/full-width";
@@ -5,6 +6,9 @@ import Profile from "../components/profile";
 
 const LoveStory = () => (
   <Layout>
+    <Head>
+      <title>Fiona &amp; Ryan | Love Story</title>
+    </Head>
     <Hero section="story">
       <h1>Our Love Story</h1>
     </Hero>

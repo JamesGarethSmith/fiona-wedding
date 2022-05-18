@@ -1,9 +1,13 @@
+import Head from "next/head";
 import Hero from "../components/hero";
 import Layout from "../components/layout";
 import FullWidth from "../components/full-width";
 
 const Directions = () => (
   <Layout>
+    <Head>
+      <title>Fiona &amp; Ryan | Directions</title>
+    </Head>
     <Hero section="directions">
       <h1>Directions</h1>
     </Hero>

@@ -1,11 +1,16 @@
 import Card from "../components/card";
 import Block from "../components/block";
 import Hero from "../components/hero";
+import Head from "next/head";
+
 import Invitation from "../components/invitation";
 import Layout from "../components/layout";
 
 const Home = () => (
   <Layout>
+    <Head>
+      <title>Fiona &amp; Ryan</title>
+    </Head>
     <Hero section="invitation">
       <Invitation />
     </Hero>
