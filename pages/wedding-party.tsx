@@ -33,7 +33,7 @@ const WeddingParty = () => (
           well that she understands me in a way that no one else has until Ryan.
           Our paths separated towards the end of our studies but we still stayed
           best friends all the while. We each took our own path in becoming
-          qualified CAs. I was blessed to be the maid of honour at Christine’s
+          qualified CAs. I was blessed to be the maid of honour at Christine's
           wedding to Kyle and now at my wedding she will do me the honour of
           being my maid of honour.
         </p>
@@ -48,7 +48,7 @@ const WeddingParty = () => (
       >
         <h1>Bridesmaid - Stacey Maggott</h1>
         <p>
-          Stacey is Ryan’s younger sister and I met her the same time that I met
+          Stacey is Ryan's younger sister and I met her the same time that I met
           Ryan. Part of how I enjoyed the Bible study was meeting Stacey and her
           views that she raised in the sessions
         </p>
@@ -74,7 +74,7 @@ const WeddingParty = () => (
           amazing older sister. She puts in so much effort and thought to all
           projects she takes on. Brings so much love to all occasions and the
           people that are part of those occasions. I was blessed to be one of
-          Anouk’s bridesmaids at the wedding of Anouk and my brother. I knew my
+          Anouk's bridesmaids at the wedding of Anouk and my brother. I knew my
           day would not be right without the warmth and joy that Anouk will
           bring being one of my bridesmaids at the wedding and lucky for me she
           agreed to be a bridesmaid.
@@ -151,7 +151,7 @@ const WeddingParty = () => (
         <h1>Groomsman - Chris Cichiwskyj</h1>
         <p>
           Chris was introduced to Ryan by Albie while they were playing their
-          online games. Chris is the resident Mexican for Albie and Wiebke’s
+          online games. Chris is the resident Mexican for Albie and Wiebke's
           group of friends in Germany. I would always know when Chris was
           joining in the games they were playing as I could hear Ryan laughing
           significantly more than he normally would. Both Ryan and Chris would

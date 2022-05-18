@@ -24,7 +24,7 @@ const LoveStory = () => (
       <p>
         When I joined the group two of the lovely people I met were Ryan and
         Stacey. After one of the sessions Ryan messaged to let me know that one
-        of my car’s brake lights was not working and offered to help me change
+        of my car's brake lights was not working and offered to help me change
         the bulb. Through the process we found out that we both lived in the
         same complex in Somerset West. We started meeting up for coffee after
         work and soon after started dating.
@@ -70,9 +70,9 @@ const LoveStory = () => (
       </Profile>
 
       <p>
-        We started playing the game and one of my cards, the ‘Spectrespecs’ had
-        the instructions to ‘Choose another player to search for an item from
-        the Hogwarts Cards library. That card is played immediately.’ Ryan as
+        We started playing the game and one of my cards, the 'Spectrespecs' had
+        the instructions to 'Choose another player to search for an item from
+        the Hogwarts Cards library. That card is played immediately.' Ryan as
         the only other player playing was the player that got to go through the
         Hogwarts card library. He found the card called “Unbreakable Vow” with
         the instructions of “Choose another player to receive the Artifact of
