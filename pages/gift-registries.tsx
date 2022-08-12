@@ -15,6 +15,7 @@ const GiftRegistries = () => (
       <p>
         Celebrating with you on our special day is the only gift we require.
       </p>
+
       <p>
         However, if you do wish to celebrate with a gift, we are registered at
         Yuppie Chef and listed a few items in a Google sheet that we'd find the
