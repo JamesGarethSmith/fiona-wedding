@@ -12,7 +12,14 @@ const Accommodation = () => (
       <h1>Accommodation</h1>
     </Hero>
     <FullWidth>
-      <p>There is accommodation available on Webersburg Wine Estate:</p>
+      <p>
+        There is accommodation available on Webersburg Wine Estate but if you
+        look online it is all booked out for the wedding.
+      </p>
+      <p>
+        Please email Webersburg and they will be able to assist you with making
+        a booking.
+      </p>
       <ul>
         <li>
           <a href="https://webersburg.co.za/accommodation/">Website</a>

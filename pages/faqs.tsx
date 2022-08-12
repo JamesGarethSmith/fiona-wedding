@@ -15,13 +15,15 @@ const FAQs = () => (
       <p>
         <b>1 What is the COVID protocol for the wedding?</b>
       </p>
+      <p>Please remain in line with, if there are any, COVID policies.</p>
       <p>
-        Please wear your masks while in close contact with other people. There
-        will be hand sanitiser available throughout the wedding. If you are not
-        feeling well on the day of the wedding please let Ryan know and stay
-        home.
+        At the moment all regulations have been removed but we will still have
+        hand sanitiser available throughout the wedding.
       </p>
-
+      <p>
+        If you are not feeling well on the day of the wedding please let Ryan
+        know and stay home.
+      </p>
       <p>
         <b>2 Can I take photos at the wedding and post on social media?</b>
       </p>
