@@ -11,7 +11,7 @@ const Invitation = () => (
       marriage.
     </p>
     <ul>
-      <li>Saturday the 15th of October 2022, 15:30 for 16:00</li>
+      <li>Saturday the 15th of October 2022, 15:00 for 15:30</li>
       <li>At Webersburg Wine Estate, Stellenbosch</li>
       <li>The reception to follow after at the same venue</li>
       <li>Dress code is semi-formal</li>
